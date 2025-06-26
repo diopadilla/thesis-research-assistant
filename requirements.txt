@@ -1,7 +1,8 @@
 streamlit==1.38.0
 langchain==0.2.16
 transformers==4.44.2
-torch==2.5.0  # Updated from 2.4.1 to an available version
+tokenizers==0.19.1  # Explicitly pin to avoid build issues
+torch==2.5.0
 sentence-transformers==3.1.1
 chromadb==0.5.5
 pypdf==4.3.1
@@ -9,5 +10,5 @@ arxiv==2.1.3
 requests==2.32.3
 python-dotenv==1.0.1
 PyPDF2==3.0.1
-hnswlib==0.8.0  # Required for chromadb
+hnswlib==0.8.0
 pyngrok==5.2.0
